@@ -1,0 +1,63 @@
+{
+    "name": "IOT Solution",
+    "children": [{
+        "name": "嵌入式软件",
+        "children": [{
+            "name": "外围设备Peripheral",
+            "children": [{
+                "name": "ADC/DAC",
+                "size": 3938
+            }, {
+                "name": "CommunityStructure",
+                "size": 3812
+            }, {
+                "name": "HierarchicalCluster",
+                "size": 6714
+            }, {
+                "name": "MergeEdge",
+                "size": 743
+            }]
+        },
+        {
+            "name":"硬件通信",
+            "children":[
+                {
+                    "name":"SPI",
+                    "size":17010
+                },
+                {
+                    "name":"I2C",
+                    "size":5842
+                },
+                {
+                    "name":"UART",
+                    "size":1983
+                },
+                {
+                    "name":"USART",
+                    "size":1041
+                },
+                {
+                    "name":"JTAG",
+                    "size":5176
+                }
+
+            ]
+        }
+        ]
+    },
+    {
+        "name":"无线通信模块",
+        "children":[
+            {
+                "name":"2.4GHz",
+                "size":1616
+            },
+            {
+                "name":"Sub-1GHz",
+                "size":1027
+            }
+        ]
+    }
+    ]
+}
